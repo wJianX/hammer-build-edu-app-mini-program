@@ -1,0 +1,139 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "现场岗位",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#57A89D",
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+		    "path" : "pages/user/payoff/payoff",
+		    "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/login/wechat_login",
+			"style" : {
+				"navigationBarTextStyle": "black"
+			}
+		},
+		
+		{
+		    "path" : "pages/login/testPage",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : {
+			}
+		},
+		{
+			"path" : "pages/login/wxLogin",
+			"style" : {
+				"navigationBarTitleText": "登 录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		
+		{
+		    "path" : "pages/tabBar/purchased/purchased",
+		    "style" : {
+				"navigationBarTitleText": "已购",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#57A89D",
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+		    "path" : "pages/tabBar/user/user",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+            "path" : "pages/user/make_a_question/make_a_question",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/orderList/orderList",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/home/study_task/study_task",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#57A89D",
+				"backgroundTextStyle": "dark"
+			}
+        }
+        
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/home/newDetail/newDetail",
+            "style" : {
+				"navigationBarTitleText": "新闻详情"
+			}
+        }
+        
+        ,{
+            "path" : "pages/user/replace_phone/replace_phone",
+            "style" : {
+			}
+        }
+        ,{
+            "path" : "pages/user/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "意见反馈"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#57A89D"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#57A89D",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/images/tabbar/index.png",
+				"selectedIconPath": "static/images/tabbar/index_b.png",
+				"text": "现场岗位"
+			},
+			{
+				"pagePath": "pages/tabBar/purchased/purchased",
+				"iconPath": "static/images/tabbar/yigoukecheng.png",
+				"selectedIconPath": "static/images/tabbar/yigoukecheng_b.png",
+				"text": "已购"
+			},
+			{
+				"pagePath": "pages/tabBar/user/user",
+				"iconPath": "static/images/tabbar/mine.png",
+				"selectedIconPath": "static/images/tabbar/mine_b.png",
+				"text": "我的"
+			}
+		]
+	}
+}

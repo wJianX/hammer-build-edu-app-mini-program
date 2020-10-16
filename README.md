@@ -1,2 +1,3 @@
-# hammer-build-edu-app-mini-program
+# hammer-build-edu-mini-program
+
 小程序
